@@ -1,4 +1,4 @@
-"""MissingCard (No Set)"""
+"""MissingCard"""
 
 
 def card():
