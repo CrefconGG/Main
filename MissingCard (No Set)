@@ -1,0 +1,11 @@
+"""MissingCard (No Set)"""
+
+
+def card():
+    """Find this."""
+    all_card = [rank + types if rank != "T" else "10" + types\
+    for rank in "23456789TJQKA"  for types in "SHDC"]
+    lost_card = [input() for x in range(51)]
+    _ = [print(x) for x in all_card if x not in lost_card]
+
+card()
